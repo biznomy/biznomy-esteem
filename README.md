@@ -18,11 +18,11 @@ Please note that shared code is only for portfolio demonstration and learning pu
 
 ![Esteem Motors App](/docs/Slide8.png "Esteem Motors App")
 
-![Esteem Motors App](/docs/0001.png "Esteem Motors App")
+![Esteem Motors App](/docs/0001.jpg "Esteem Motors App")
 
-![Esteem Motors App](/docs/0002.png "Esteem Motors App")
+![Esteem Motors App](/docs/0002.jpg "Esteem Motors App")
 
-![Esteem Motors App](/docs/0003.png "Esteem Motors App")
+![Esteem Motors App](/docs/0003.jpg "Esteem Motors App")
 
-![Esteem Motors App](/docs/0004.png "Esteem Motors App")
+![Esteem Motors App](/docs/0004.jpg "Esteem Motors App")
 
