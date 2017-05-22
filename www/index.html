@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="lib/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+        
+        <link rel='stylesheet' href='lib/unitegallery/css/unite-gallery.css' type='text/css' />
+        <!--mobiscroll start-->
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.scroller.css' type='text/css' />
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.scroller.android.css' type='text/css' />
+        <link rel='stylesheet' href='lib/mobiscroll/css/mobiscroll.animation.css' type='text/css' />
+        <!--mobiscroll end-->
+        <!--zebra start-->
+        <link type="text/css" href="lib/zebra/css/default/zebra_dialog.css" rel="stylesheet" />
+        <!--zebra end-->
+          <link rel="stylesheet" type="text/css" href="lib/css/flaticon.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/jquery.mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+        
+
+        <title>Esteem Motor</title>
+    </head>
+    <body>
+
+        <!--home page start-->
+
+        <div data-role="page" id="index">
+            <div data-role="header" class="bgcolor-red">
+                <h1>Esteem Motor</h1>
+            </div>
+            <div data-role="container">
+                <div class="row" align="center">
+                    <div href="#mycar" class="col-md-4 col-sm-4 col-xs-4 icon my-car">
+                        My Car
+                    </div>
+                    <div href="#services" class="col-md-4 col-sm-4 col-xs-4 icon service">
+                        Services
+                    </div>
+                    <div href="#insurance" class="col-md-4 col-sm-4 col-xs-4 icon insurance">
+                        Insurance
+                    </div>
+                    <div href="#offers" class="col-md-4 col-sm-4 col-xs-4 icon offers">
+                        Offers
+                    </div>
+                    <div href="#newcar" class="col-md-4 col-sm-4 col-xs-4 icon newcar">
+                        New Car
+                    </div>
+                    <div href="#tips" class="col-md-4 col-sm-4 col-xs-4 icon tips">
+                        Tips
+                    </div>
+                    <div href="#contact" class="col-md-4 col-sm-4 col-xs-4 icon contact">
+                        ContactUs
+                    </div>
+                    <div href="#tracker" class="col-md-4 col-sm-4 col-xs-4 icon tracker">
+                       Alert
+                    </div>
+                    <div href="#hotline" class="col-md-4 col-sm-4 col-xs-4 icon hotline">
+                        Hotlines
+                    </div>
+                </div>
+           
+                <div class="col-md-12 col-sm-12 col-xs-12 box bottom">
+                    <div class="text">
+                        <h6>Tip of the Day : Top off your brake fluid</h6></br>Check brake fluid monthly. Wipe dirt from the master cylinder lid before you open it. If you need fluid, add the type.
+                    </div>
+                    <img class="tipimg" src="img/arrow.jpg"></img>
+                </div>
+            </div>
+        </div>
+        <!--home page end-->
+
+        <!--my car page start-->
+
+        <div data-role="page" id="mycar">
+            <div data-role="header" class="bgcolor-red">
+                <h1>My Car</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+
+                <div class='form'>
+                	<form id="firstform">
+                        <input type='text' id="txtMcName" placeholder='Name:' name="name"/>
+                        <input type='text' id="txtMcCarName" placeholder='Car Name:' name="carname"/>
+                        <input type='text' id="txtMcRegiNumber" placeholder='Registration Number:' name="regnumber"/>
+                        <input type='text' id="txtMcChasNumber" placeholder='Chassis Number:' name="chasisnumber"/>
+
+                        <button type="submit" id="btnMcSubmit" class="red">SUBMIT</button>
+                     </form>
+                </div>
+
+            </div>
+
+        </div>
+        <!--my car page end-->
+        
+        <!--services page start-->
+
+        <div data-role="page" id="services">
+            <div data-role="header" class="bgcolor-ltgreen">
+                <h1>Services</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <label class="center padding-5 grey">Book Service Avialiable 24x7</label>
+
+                <div class='form'>
+                    <form id="serviceform">
+                        <input type='text' id="txtServName" placeholder='Your Name' name="name"/>
+                        <input type='text' id="txtServCarModel" placeholder='Car Model'  name="carmodel"/>
+                        <input type='text' id="txtServDate" placeholder='Date'  name="date"/>
+                        <input type='text' id="txtServTime" placeholder='Time'  name="time"/>
+
+                        <button type="submit"  id="btnServSubmit" class="green"  >
+                            SUBMIT
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!--services page end-->
+        
+        <!--insurance page start-->
+
+        <div data-role="page" id="insurance">
+            <div data-role="header" class="bgcolor-magenta">
+                <h1>Insurance</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext"  data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <label class="center padding-5 magenta">Buy or ReNew Car Insurance</label>
+                
+                <div class='form'>
+                    <form id="insuranceform">
+                        <input type='text' id="txtInsCarMode" placeholder='Car Model: ' name="carmodel" />
+                        <input type='text' id="txtInsRegDate" placeholder='Registration Date:'  name="regdate"/>
+                        <input type='text' id="txtInsExpDate" placeholder='Expiry Date:'  name="expirydate"/>
+
+                        <button type="submit" id="btnInsSubmit" class="magenta">
+                            SUBMIT
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!--insurance page end-->
+        
+        <!--offers page start-->
+
+        <div data-role="page" id="offers">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Offers</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <ul data-role="listview" class="listItem">
+                  <li data-role="list-divider"><a href="#" class="blue"><img src="img/offers.png" alt="Offers" class="ui-li-icon ui-corner-none">Discount Offers & Schemes</a></li>
+                  <li><a href="#offers1" class="blue">Best Deal on CR-V<p>Buy a new CR-V @ interest rate of 3.99% for 3 years & get Loyalty bonus upto Rs. 10,000/-(This offer is from Manufacturer)</p></a></li>
+                  <li><a href="#offers2" class="blue">Buy All New Jazz<p>Bring home all new Jazz get 30000rs Insurance FREE + Easly avail EMI of Rs. 6,537/-.</p></a></li>
+                  <li><a href="#offers3" class="blue">1 Lakh Honda City Sold Offer <p>Get premium Class honda city in any variant with No EXTRA CHARGE.And all accessories Free</p></a></li>
+                  <li><a href="#offers4" class="blue">Family Honda Mobilio Family Offer<p>Get 2 days 3 night family package in manali.Or 6 member family tour, company providing hotel charges .</p></a></li>   
+                   <li><a href="#offers5" class="blue">NO MAINTENANCE Honda Brio<p>Get 5 year free maintaince for your new brio.company providing there service all over india(national level service provider)</p></a></li>                                 
+                </ul>
+
+            </div>
+        </div>
+        <!--offers page end-->
+        
+        <!--offers1 page start-->
+
+        <div data-role="page" id="offers1">
+            <div data-role="header" class="bgcolor-mehron">
+                <h1>CR-V</h1>
+                <a  class = "btn-top" class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/cars/crv.jpg" />	            			
+            		</div>
+            		<button class="bgcolor-mehron get-it">Get it</button>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            			Buy a new CR-V @ interest rate of 3.99% for 3 years & get Loyalty bonus upto Rs. 10,000/-(This offer is from Manufacturer)
+            			</p>	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                       In India, the 4th generation CR-V was launched in February 2013 with 2 variants, a 2.0 litre petrol and a 2.4 litre, 185 bhp petrol. The 2.0 litre variant will be equipped with a six-speed manual or a five-speed automatic gearbox. The 2.4 litre variant will come with an automatic gearbox, Honda's on demand 4 wheel drive system and an Econ-mode to increase fuel efficiency
+                         model tested by the Insurance Institute for Highway Safety (IIHS) was the LX model with standard driver and passenger airbags. Even though the car's structure received an acceptable rating, 
+                        </p>                            
+                    </div>
+            	</div>
+            </div>
+        </div>
+        <!--offers1 page end-->
+
+        <!--offers2 page start-->
+
+        <div data-role="page" id="offers2">
+            <div data-role="header" class="bgcolor-megntaOrgen">
+                <h1>Honda Jazz</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/cars/jazz.jpg" />	            			
+            		</div>
+            		  <button class="bgcolor-megntaOrgen get-it">Get it</button>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Bring home all new Jazz get 30000rs Insurance FREE + Easly avail EMI of Rs. 6,537/-.No file charge its totally free
+            			</p>	            			
+            		</div>    
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                          Go all out. The sophisticated futuristic cockpit interiors of the all new Honda Jazz is based on innovative Man Maximum Machine Minimum philosophy that offers you the best-in-segment space and comfort. It comes with state-of-the-art features designed and perfected to give you a superb driving experience. Enjoy auto AC with touch screen control panel, leather wrapped steering wheel and gear knob, advanced audio, instrument cluster and a whole assortment of awesome features, all laid out perfectly in super spacious and premium interiors.
+                    
+                         The all new Honda Jazz stands apart with its sporty crossfade monoform design. 
+                        </p>                            
+                    </div>         		
+            	</div>
+            	
+            </div>
+        </div>
+        <!--offers2 page end-->
+
+        <!--offers3 page start-->
+
+        <div data-role="page" id="offers3">
+            <div data-role="header" class="bgcolor-darkGreenish">
+                <h1>Honda City </h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/cars/hondacity.jpg" />	            			
+            		</div>
+            		<button class="bgcolor-darkGreenish get-it">Get it</button>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Get premium Class honda city in any variant with No EXTRA CHARGE.And all accessories Free
+            			</p>	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                           Many in the world like to follow a herd. But the accessories for the City are meant for those who take a stand of their own. Stylish chrome grille and a sporty spoiler kit make a distinctive statement everywhere you go. It's like they make an announcement that the trends are about to change.
+                       The City sets a high standard in care and safety with its exclusive ACE™ body structure that enhances self-protection while mitigating damage to other vehicles in the event of a collision. And to be double sure about your protection, it even comes with the driver and front passenger SRS airbag, impact mitigating headrests and ABS with EBD. Now hit the road unrestrained.
+                        </p>                            
+                    </div>
+            	</div>
+            </div>
+        </div>
+        <!--offers3 page end-->
+        
+        <!--offers4 page start-->
+
+        <div data-role="page" id="offers4">
+            <div data-role="header" class="bgcolor-LightGreenish">
+                <h1>Honda Mobilio</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/cars/mobilio.jpg" />	            			
+            		</div>
+            		<button class="bgcolor-LightGreenish get-it">Get it</button>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Get 2 days 3 night family package in manali.Or 6 member family tour, company providing hotel charges .
+            			</p>	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                            Here is a car that is as powerful as it looks. With an uncompromising 100 ps diesel and 119 ps petrol of pure power under the hood, Mobilio promises a thrilling drive each time you take it out for a spin.
+                           We know you carry your world with you each time you step into a car, that’s why at Honda we design cars keeping your safety a priority. We run a host of stringent tests before we roll the car out.
+                        </p>                            
+                    </div>
+            	</div>
+            </div>
+        </div>
+          <div data-role="page" id="offers5">
+            <div data-role="header" class="bgcolor-mehronRed">
+                <h1>Brio</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <div class="img-rounded row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <img src="img/cars/brio.jpg" />                          
+                    </div>
+                    <button class="bgcolor-mehronRed get-it">Get it</button>
+                    <div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                            Get 5 year free maintaince for your new brio.company providing there service all over india(national level service provider)
+                        </p>                            
+                    </div>
+                     <div class="col-md-12 col-sm-12 col-xs-12 carimg">
+                        <p class="offerdetails">
+                            Honda 1.2L advanced i-VTEC (intelligent Variable Valve Timing and Electronic Lift Control) engine delivers high power output at an impressive fuel economy
+                           If love can find an expression in geometry, it would be a sporty double triangle. That's the unique idea behind the supremely classy design of the Honda Brio. The edgy chrome grille and fine character lines rising up from the dynamic headlights are a tribute to Brio's love for you.
+                        Love is always about protecting your loved ones. And the Brio asserts its love for you with a range of enhanced safety features.
+                                              </p>                            
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--offers4 page end-->
+
+
+        <!--newcar page start-->
+
+        <div data-role="page" id="newcar">
+            <div data-role="header" class="bgcolor-ltblue">
+                <h1>New Car</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                
+			<div id="gallery" style="display:none;">
+				<a href="http://biznomy.com"> <img alt="CR-V"
+					src="img/cars/crv.jpg"
+					data-image="img/cars/crv.jpg"
+					data-description="CR-V"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Jazz"
+					src="img/cars/jazz.jpg"
+					data-image="img/cars/jazz.jpg"
+					data-description="Jazz"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Honda city"
+					src="img/cars/hondacity.jpg"
+					data-image="img/cars/hondacity.jpg"
+					data-description="Honda City"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Mobilio"
+					src="img/cars/mobilio.jpg"
+					data-image="img/cars/mobilio.jpg"
+					data-description="Honda mobilio"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Brio"
+					src="img/cars/brio.jpg"
+					data-image="img/cars/brio.jpg"
+					data-description="Brio"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Amaze"
+					src="img/cars/amaze.jpg"
+					data-image="img/cars/amaze.jpg"
+					data-description="Amaze"
+					style="display:none">
+				</a>
+				<a href="http://biznomy.com"> <img alt="Honda Jazz"
+					src="img/cars/CRV.png"
+					data-image="img/cars/honda_jazz.jpg"
+					data-description="Honda Jazz"
+					style="display:none">
+				</a>
+				
+				<a href="http://biznomy.com"> <img alt="Honda Brio"
+					src="img/cars/brio1.jpg"
+					data-image="img/cars/brio1.jpg"
+					data-description="honda Brio"
+					style="display:none">
+				</a>
+                </div>
+
+            </div>
+        </div>
+        <!--newcar page end-->
+        
+        
+        <!--tips page start-->
+
+        <div data-role="page" id="tips">
+            <div data-role="header" class="bgcolor-voilet">
+                <h1>Tips</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <ul data-role="listview" class="listItem">
+                  <li><a href="#tip1" class="blue">Inspect your vehicle<p>Make sure your windshield wipers are working correctly, and replace cracked or poor ones. Check your tire tread: take a quarter and insert it head first into the grooves. If there is any space above Washington’s head, it’s time to replace. Replace any headlights or brake lights that are out. You want to see and be seen!</p></a></li>
+                  <li><a href="#tip2" class="blue">Allow extra time <p>Traffic congestion is worse in bad weather. Plan ahead and leave early so you have enough time to get to your destination.</p></a></li>
+                  <li><a href="#tip3" class="blue">Slow Down<p>When it rains, oil and grime on the pavement rise to the surface. Wet streets are extremely slick and slippery, making it more difficult to get traction. When you drive slowly, a greater amount of the tire’s tread makes contact with the road, giving you better traction. Drive at a steady pace and avoid jerky movements when braking, accelerating, or turning.</p></a></li>
+                  <li><a href="#tip4" class="blue">Don't Tailgate<p>It takes three times longer to stop on a wet road than a dry one. Increase the distance you normally keep from the car in front of you and be alert for brake lights ahead.</p></a></li>
+                  <li><a href="#tip5" class="blue">Don't drive through flooded areas<p>Only a few inches of water can move your whole car. Flooding can occur on highways and neighborhood streets within moments of a heavy downpour. Be alert for posted flood warning signs or barricades. If you drive around a barricade and become stranded in a flooded area, you will be held responsible to pay for your own rescue according to Arizona’s “Stupid Motorist Law.”</p></a></li>                                    
+                </ul>
+            </div>
+        </div>
+        <!--tips page end-->
+        
+        <!--tip1 page start-->
+
+        <div data-role="page" id="tip1">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Inspect your Vehicle</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/tips/inspect.jpg" />	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Make sure your windshield wipers are working correctly, and replace cracked or poor ones. Check your tire tread: take a quarter and insert it head first into the grooves. If there is any space above Washington’s head, it’s time to replace. Replace any headlights or brake lights that are out. You want to see and be seen!
+            			</p>	            			
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--tip1 page end-->
+        
+        <!--tip2 page start-->
+
+        <div data-role="page" id="tip2">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Allow extra time </h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/tips/extra-time.jpg" />	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Traffic congestion is worse in bad weather. Plan ahead and leave early so you have enough time to get to your destination.
+            			</p>	            			
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--tip2 page end-->
+        
+        <!--tip3 page start-->
+
+        <div data-role="page" id="tip3">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Slow Down</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/tips/slow-down-car.jpg" />	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				When it rains, oil and grime on the pavement rise to the surface. Wet streets are extremely slick and slippery, making it more difficult to get traction. When you drive slowly, a greater amount of the tire’s tread makes contact with the road, giving you better traction. Drive at a steady pace and avoid jerky movements when braking, accelerating, or turning.
+            			</p>	            			
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--tip3 page end-->
+        
+        <!--tip4 page start-->
+
+        <div data-role="page" id="tip4">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Don't Tailgate</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/tips/tailgating.jpg" />	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				It takes three times longer to stop on a wet road than a dry one. Increase the distance you normally keep from the car in front of you and be alert for brake lights ahead.
+            			</p>	            			
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--tip4 page end-->
+        
+        <!--tip5 page start-->
+
+        <div data-role="page" id="tip5">
+            <div data-role="header" class="bgcolor-blue">
+                <h1>Don't drive through flooded areas</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+            	<div class="img-rounded row">
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<img src="img/tips/flooded.jpg" />	            			
+            		</div>
+            		<div class="col-md-12 col-sm-12 col-xs-12 carimg">
+            			<p class="offerdetails">
+            				Only a few inches of water can move your whole car. Flooding can occur on highways and neighborhood streets within moments of a heavy downpour. Be alert for posted flood warning signs or barricades. If you drive around a barricade and become stranded in a flooded area, you will be held responsible to pay for your own rescue according to Arizona’s “Stupid Motorist Law.”
+            			</p>	            			
+            		</div>
+            	</div>
+            </div>
+        </div>
+        <!--tip5 page end-->
+
+        
+
+        <!--contact page start-->
+
+        <div data-role="page" id="contact">
+            <div data-role="header" class="bgcolor-yellow">
+                <h1>ContactUs</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+               
+                <div id="map-canvas"></div>
+                <div id="address" class="center">
+                    <address>
+                        <strong>Esteem Motor</strong>
+                        <br>
+                       A-1, Wazirpur Industrial Area
+                        <br>
+                          New Delhi, Delhi 110052
+                        <br>
+                        <abbr title="Phone"><b>P.NO:</b></abbr>0120-4194200
+                    </address>
+
+                    <address>
+                        <strong>Email</strong>
+                        <br>
+                        <a href="mailto:#">esteemmoter@info.com</a>
+                    </address>
+                </div>
+                
+            </div>
+        </div>
+        <!--contact page end-->
+
+        
+
+        
+
+        <!--tracker page start-->
+
+        <div data-role="page" id="tracker">
+            <div data-role="header" class="bgcolor-pink">
+                <h1>Tracker</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+          <div bzwidget="list" class="bzn-main-container alert"  queryon="custom1" idData="103" pagination="true" max-fatch="10">
+               
+                  <div bzwidget="listelement" class="bzn-row" >
+                    <div href="#mycar" class="bzn-row-element">
+                        <div class="bzn-img flaticon-two398" ></div>
+                        <div class="bzn-content">
+                            <div bzwidget="textDisplay" datafield="content">
+                            Get your car wash Free . On Insurance<br> Please contact Us
+                            </div>
+
+                        </div >
+                        
+                    </div>
+                     <div bzwidget="textDisplay" datafield="receivedDate" class="bzn-content-2">
+                           23/09/2015
+                        </div>
+                </div>
+                      <div bzwidget="listelement" class="bzn-row" >
+                    <div href="#mycar" class="bzn-row-element">
+                        <div class="bzn-img flaticon-two398" ></div>
+                        <div class="bzn-content">
+                            <div bzwidget="textDisplay" datafield="content">
+                           Buy a new CR-V @ interest rate of 3.99% for 3 years & get Loyalty bonus upto Rs. 10,000/-(This offer is from Manufacturer)
+                            </div>
+
+                        </div >
+                        
+                    </div>
+                     <div bzwidget="textDisplay" datafield="receivedDate" class="bzn-content-2">
+                           18/04/2015
+                        </div>
+                </div>
+                  <div bzwidget="listelement" class="bzn-row" >
+                    <div href="#mycar" class="bzn-row-element">
+                        <div class="bzn-img flaticon-two398" ></div>
+                        <div class="bzn-content">
+                            <div bzwidget="textDisplay" datafield="content">
+                            Get your 10000Rs benefits on car in this Festival season <br>
+                            Hurry book Now
+                            </div>
+
+                        </div >
+                        
+                    </div>
+                     <div bzwidget="textDisplay" datafield="receivedDate" class="bzn-content-2">
+                           18/04/2015
+                        </div>
+                </div>
+                
+              
+         </div>
+
+    
+    </div>
+        </div>
+        <!--tracker page end-->
+        
+        <!--hotline page start-->
+
+        <div data-role="page" id="hotline">
+            <div data-role="header" class="bgcolor-orange">
+                <h1>Hotline</h1>
+                <a  class = "btn-top" data-role="botton" data-icon="carat-l" data-iconpos="notext" data-rel="back">Back</a>
+            </div>
+            <div data-role="container">
+                <div class="row" align="center">
+                    <div tel="tel: O120-4374242" class="col-md-4 col-sm-4 col-xs-4 hotnum newcarsales">
+                        New Car <br>Sales
+                    </div>
+                    <div tel="tel:0120-4184200" class="col-md-4 col-sm-4 col-xs-4 hotnum usedcar">
+                        Used Car <br>Enquiry
+                    </div>
+                    <div tel="tel:O120-4374242" class="col-md-4 col-sm-4 col-xs-4 hotnum servicebooking">
+                        Service <br>Booking
+                    </div>
+                    <div tel="tel:0120-4184200" class="col-md-4 col-sm-4 col-xs-4 hotnum accessories">
+                        Buy <br>Accessories
+                    </div>
+                    <div tel="tel:O120-4374242" class="col-md-4 col-sm-4 col-xs-4 hotnum customercare">
+                        Customer<br> Care
+                    </div>
+                    <div tel="tel:0120-4184200" class="col-md-4 col-sm-4 col-xs-4 hotnum reinsurance">
+                        Renew <br>Insurance
+                    </div>
+                    <div tel="tel:O120-4374242" class="col-md-4 col-sm-4 col-xs-4 hotnum carloan">
+                        Get Car<br> Loan
+                    </div>
+                    <div tel="tel: 0120-4184200" class="col-md-4 col-sm-4 col-xs-4 hotnum learndriving">
+                        Learn<br> Driving
+                    </div>
+                    <div tel="tel: 0120-4184200" class="col-md-4 col-sm-4 col-xs-4 hotnum extendedwarranty">
+                        Extended <br>Warranty
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--hotline page end-->
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+		
+		<script type="text/javascript" src="lib/jquery.validate.js"></script>
+		<!--unite gallery-start-->
+		<script type='text/javascript' src='lib/unitegallery/js/unitegallery.min.js'></script>
+		<script type='text/javascript' src='lib/unitegallery/themes/tiles/ug-theme-tiles.js'></script>
+		<!--unite gallery-end-->
+		<!--mobiscroll-start-->
+		<script src="lib/mobiscroll/js/mobiscroll.core.js"></script>
+		<script src="lib/mobiscroll/js/mobiscroll.scroller.js" type="text/javascript"></script>
+		<script src="lib/mobiscroll/js/mobiscroll.datetime.js" type="text/javascript"></script>
+		<script src="lib/mobiscroll/js/mobiscroll.scroller.android.js" type="text/javascript"></script>
+		<script src="lib/mobiscroll/js/custom.js"></script>
+		<!--mobiscroll-end-->
+		<!--google map-->
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<!--zebra start-->
+        <script type="text/javascript" src="lib/zebra/javascript/zebra_dialog.js"></script>
+        <!--zebra end-->
+        <script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script src="js/map_manipulation.js"></script>
+		<script type="text/javascript" src="js/logIn.js"></script>
+    </body>
+</html>
+<!--
+Thanks. We will soon confirm your request.
+
+
+Thanks. We will get back with insurance details soon.
+-->
